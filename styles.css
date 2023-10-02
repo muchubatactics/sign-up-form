@@ -54,7 +54,7 @@ table {
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 :root {
     box-sizing: border-box;
@@ -124,12 +124,110 @@ body {
 }
 
 .right {
+    display: flex;
+    flex-direction: column;
     flex: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.upper,.bottom {
+    background-color: rgb(248, 248, 248);
+    flex: auto;
+    padding-left: 2rem;
+}
+
+.middle {
+    background-color: white;
+    flex: auto;
+    padding-left: 2rem;
+    padding-top: 2%;
+    font-size: small;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+}
+
+.middle input {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    height: 1.3rem;
+    border-radius: 0.2rem;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus-visible {
+    outline: none;
+    border: 1px solid #276fff;
+    box-shadow: 1px 1px 5px rgb(197, 197, 197);
+}
+
+.middle input:hover {
+    border: 1px solid #0055ff;
+    box-shadow: 1px 1px 5px rgb(197, 197, 197);
+
+}
+
+.middle label {
+    margin-bottom: 2px;
+}
+
+.middle form div {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+
+.middle form div div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.middle h2 {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: black;
+}
+
+.bottom > button {
+    background-color: #596D48;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 7rem;
+    height: 1.5rem;
+    font-size: 60%;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+}
+
+.bottom > button:hover {
+    background-color: #598037;
+}
+
+.bottom a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    color:#8fac76;
 }
 
 .upper {
-    font-weight: 600;
-    background-color: silver;
+    font-weight: bold;
+    padding-top: 15%;
+
+}
+
+.bottom {
+    padding-top: 4%;
+    font-size: smaller;
+    padding-bottom: 8%;
+    box-shadow: inset 0px 1px 8px rgb(228, 223, 223);
 }
 
 .em {
