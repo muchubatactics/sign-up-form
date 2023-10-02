@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 /*meyer reset */
 
 html, body, div, span, applet, object, iframe,
@@ -54,7 +55,6 @@ table {
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 :root {
     box-sizing: border-box;
@@ -152,6 +152,11 @@ body {
     height: 1.3rem;
     border-radius: 0.2rem;
     border: 1px solid #E5E7EB;
+    padding-left: 5px;
+}
+
+.middle .error {
+    border: 1px solid red;
 }
 
 input:focus-visible {
@@ -197,7 +202,7 @@ input:focus-visible {
     border-radius: 5px;
     width: 7rem;
     height: 1.5rem;
-    font-size: 60%;
+    font-size: 70%;
     font-weight: bold;
     margin-bottom: 1.5rem;
     box-shadow: 2px 2px 5px rgb(71, 71, 71);
